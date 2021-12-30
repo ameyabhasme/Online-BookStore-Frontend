@@ -1,0 +1,181 @@
+.heading-crumbs {
+    display: flex;
+    justify-content: flex-end;
+    width: 310px;
+    padding-top: 10px;
+}
+
+.home-text {
+    font-size: smaller;
+    color: #9D9D9D;
+}
+
+.profile-text {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.main-container {
+    padding-left: 274px;
+    width: 480px;
+    height: 700px;
+    opacity: 1;
+}
+
+.inner-container1 {
+    height: 300px;
+}
+
+.first-block {
+    display: flex;
+}
+
+.personaldetails-text {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.edit-text {
+    font-size: smaller;
+    padding-left: 10px;
+    color: #A03037;
+    font-weight: 600;
+}
+
+.label-text {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 35px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.second-block {
+    display: flex;
+}
+
+.addressdetails-text {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.address-button {
+    padding-left: 150px;
+}
+
+.newaddress-button {
+    top: 504px;
+    left: 603px;
+    width: 123px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #A03037;
+    border-radius: 2px;
+    opacity: 1;
+    color: #A03037;
+}
+
+.inner-container2 {
+    height: 300px;
+}
+
+.work-block {
+    display: flex;
+}
+
+.address-text {
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+    width: 380px;
+    height: 80px;
+    color: #878787;
+}
+
+.city-text {
+    display: flex;
+    flex-direction: column;
+    width: 144.5px;
+    height: 35px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.state-text {
+    border-left: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 144.5px;
+    height: 35px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.city-state {
+    display: flex;
+    flex-direction: row;
+}
+
+.city-text {
+    display: flex;
+    flex-direction: column;
+    width: 180.5px;
+}
+
+.state-text {
+    display: flex;
+    flex-direction: column;
+    width: 180.5px;
+}
+
+.type-block {
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+}
+
+.type-button {
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    border-radius: 3px;
+}
+
+:host ::ng-deep .mat-radio-container {
+    height: 10px;
+    width: 10px;
+}
+
+ :host ::ng-deep .mat-radio-outer-circle {
+    height: 10px;
+    width: 10px;
+}
+
+ :host ::ng-deep .mat-radio-inner-circle {
+    height: 11px;
+    width: 11px;
+    border-bottom: 6px solid #A03037;
+    border-right: 6px solid #A03037;
+}

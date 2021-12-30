@@ -1,0 +1,156 @@
+.main-header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1216px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.main-content {
+    padding: 2% 8% 0 15%;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+}
+
+.books {
+    margin-left: 1%;
+    width: 70px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 25px/33px Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.book-count {
+    display: flex;
+    text-align: left;
+    padding-top: 1%;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+.checkbox {
+    display: flex;
+    margin-left: 69.6%;
+    //   align-items: right;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.book-all {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    //padding-bottom: 50%;
+}
+
+.book-card {
+    margin-bottom: 11%;
+}
+
+.all-books {
+    //   border: 2px solid #0a0102;
+    width: 233px;
+    height: 180px;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+    margin: 10px;
+    cursor: pointer;
+}
+
+img {
+    top: 163px;
+    left: 239px;
+    width: 105px;
+    height: 135px;
+    margin: auto;
+    padding-top: 8%;
+    display: flex;
+    opacity: 1;
+}
+
+.book-details {
+    height: 55%;
+    width: 231px;
+    margin-top: 10%;
+    border: #0a0102;
+    border: 1px solid #ebe5e5;
+}
+
+.details {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.book-name {
+    width: 141px;
+    height: 30px;
+    display: flex;
+    text-align: left;
+    font: normal normal bolder 14px/40px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.author {
+    text-align: left;
+    font: normal normal normal 15px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.ratingg {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    width: 40px;
+    height: 13px;
+    margin-top: 2%;
+    background-color: rgb(28, 128, 28);
+    text-align: center;
+    font: normal normal bold 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.discount-prise {
+    text-align: left;
+    font: normal normal bold 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.actual-prise {
+    text-align: left;
+    text-decoration: line-through;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.sort-option {
+    font: normal normal normal 14px/16px Roboto;
+    color: #0a0102;
+}

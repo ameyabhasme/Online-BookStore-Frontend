@@ -1,0 +1,304 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: #A03037;
+    color: #FFFFFF;
+}
+
+.logo-image {
+    width: 31.04px;
+    height: 23.71px;
+    margin-left: 200px;
+    // margin-right: 5.98px;
+}
+
+.logo-text {
+    font-size: 26px;
+    font: normal normal normal 20px/26px Roboto;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+    height: 32px;
+    width: 450px;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-top: 14px;
+    margin-left: 30px;
+    color: #9D9D9D;
+}
+
+.search-image {
+    margin: 10px 0px 0px 13.81px;
+    width: 12.99px;
+    height: 12.93px;
+    opacity: 0.4;
+}
+
+p {
+    margin-top: 7.5px;
+    font-size: 12px;
+    margin-left: 7.2px;
+}
+
+.profile-and-cart {
+    margin-left: 200px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    // border: 1px solid #8F2B2F;
+    opacity: 1;
+}
+
+.p-and-c-image {
+    height: 15px;
+    width: 15px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.box-below-profile {
+    width: 261px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.welcome {
+    text-align: left;
+    font: normal normal medium 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    margin-bottom: 0px;
+    margin-left: 19px;
+}
+
+.text-below-welcome {
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 19px;
+}
+
+.text-below-divider {
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.login-button {
+    width: 127px;
+    height: 33px;
+    border: 1px solid #A03037;
+    border-radius: 2px;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+
+::ng-deep.mat-button.mat-accent,
+.mat-icon-button.mat-accent,
+.mat-stroked-button.mat-accent {
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #A03037;
+}
+
+.divider {
+    width: 230px;
+    margin: 15px 0px 10px 15px;
+}
+
+.my-orders {
+    margin-left: 19px;
+}
+
+.box {
+    width: 10px;
+    height: 11px;
+    margin-top: 2px;
+    color: #878787;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.2ms linear;
+    top: 0px;
+}
+
+.not-fixed {
+    position: static;
+    transition: 00.2ms;
+    top: 50px;
+}
+
+.badge-num {
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: absolute;
+    bottom: 20px;
+    left: 28px;
+    font: normal normal bold 11px/15px Lato;
+    letter-spacing: 0px;
+    color: #a5110ce0;
+    opacity: 1;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    column-gap: 5.98px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.shopping-cart {
+    background: #a03037;
+    margin: 0px;
+    padding-top: 8px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.shopping-cart-icon {
+    size: 20px;
+    color: #E4E4E4;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -12px;
+    cursor: pointer;
+}
+
+.person-mat-icon {
+    background: #a03037;
+    margin: 0px;
+    border-width: 0px;
+    padding-bottom: 5px;
+}
+
+.search {
+    border: none;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+}
+
+.search.ng-touched.ng-pristine {
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+}
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+}
+
+.menu-name {
+    width: 78px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.menu-profile {
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.menu-icon {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #878787;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logout-button {
+    width: 123px;
+    height: 33px;
+    border: 1px solid #A03037;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 12px/16px Roboto;
+    color: #A03037;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.profile-menu {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.mat-menu-items {
+    padding: 10px 30px 10px 15px;
+}
+
+.mat-badge-content {
+    background: black
+}
+
+.mat-badge-content {
+    color: yellow
+}

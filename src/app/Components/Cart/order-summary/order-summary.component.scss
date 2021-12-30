@@ -1,0 +1,537 @@
+.cart {
+    margin-left: 86px;
+    top: 20px;
+    width: 60%;
+    left: 10%;
+    border: 0px solid #DCDCDC;
+    box-shadow: none;
+    border-radius: 1px;
+}
+
+.home {
+    cursor: pointer;
+    width: 40px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+.mycart {
+    width: 60%;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+    border-radius: 1px;
+}
+
+.book-count {
+    width: 88px;
+    height: 24px;
+    padding-left: 4%;
+    font: normal normal bold 15px/34px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.location {
+    padding: 7px;
+    align-items: center;
+    width: 240px;
+    height: 40px;
+    margin-left: 56%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.image {
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+.details {
+    margin-left: 10%;
+}
+
+.book-name {
+    padding-top: 9px;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    width: 241px;
+    height: 30px;
+    display: flex;
+}
+
+.author {
+    text-align: left;
+    font: normal normal normal 10px/12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.discount-price {
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    padding-right: 7px;
+}
+
+.actual-price {
+    text-align: left;
+    text-decoration: line-through;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.customer {
+    top: 40px;
+    width: 80%;
+    height: 400px;
+    left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #bbbaba;
+    border-radius: 2px;
+    margin-top: 2%;
+    //   opacity: 0.24;
+}
+
+.book-image {
+    width: 65px;
+    height: 85px;
+}
+
+.location-icon {
+    font-size: 18px;
+    vertical-align: -3px;
+    color: #A03037;
+}
+
+.counter-buttons {
+    display: flex;
+    width: 80%;
+    margin-left: 25px;
+    // background-color: #0a0102;
+}
+
+.remove-button {
+    margin-left: 30px;
+    .remove {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.place-text {
+    top: 308px;
+    left: 766px;
+    width: 151px;
+    height: 35px;
+    opacity: 1;
+    margin-left: 80%;
+    margin-top: 0px;
+    .-button {
+        background: #3371B5 0% 0% no-repeat padding-box;
+        border-radius: 2px;
+        border: none;
+    }
+}
+
+.minus-text {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: round($number: 100%);
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    margin-right: 5px;
+}
+
+.count-text {
+    width: 25px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+}
+
+.plus-text {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: round($number: 100%);
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    margin-left: 5px;
+}
+
+//Customer Address Details
+.customer-details {
+    margin-left: 239px;
+    margin-top: 40px;
+    width: 60%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.order-text {
+    top: 20px;
+    position: relative;
+    width: 60%;
+    height: 20px;
+    margin-left: 222px;
+    text-align: left;
+    font: normal normal normal 20px/30px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    border: 1px solid #DCDCDC;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.internal-content {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.heading {
+    font-family: Roboto;
+    font-size: 21px;
+    margin-left: -8px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.address-button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #A03037;
+    border-radius: 2px;
+    color: #A03037;
+    opacity: 1;
+    width: 160px;
+    margin-left: 74%;
+    margin-top: -30px;
+    height: 40px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.row2 {
+    margin-top: -88px;
+    margin-left: 263px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.label {
+    font-family: ROBOTO;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    padding: 1px;
+    opacity: 1;
+}
+
+.address-input {
+    border-color: #b4b4b4;
+    border-width: 1px;
+    height: 70px;
+    width: 511px;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+    border-style: solid;
+}
+
+.input-field {
+    border-color: #b4b4b4;
+    border-width: 1px;
+    height: 45px;
+    width: 250px;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+    border-style: solid;
+}
+
+.radio1 {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.radio2 {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.radio3 {
+    margin-top: -21.65px;
+    margin-left: 280px;
+}
+
+.radio-label {
+    font-size: 14px;
+    font-family: Roboto;
+    display: inline-block;
+}
+
+.button-container {
+    margin-top: 10px;
+    margin-left: 75%;
+    width: 40px;
+    height: 35px;
+    background: #3371B5 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.confirm-button {
+    margin-left: 74%;
+    display: flex;
+    border-radius: 2px;
+    opacity: 1;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+    background-color: #3371B5;
+    border-color: #3371B5;
+    color: white;
+}
+
+.main-class {
+    height: 100%;
+    width: 100%;
+}
+
+.cart {
+    top: 10px;
+    width: 80%;
+    left: 10%;
+    border: 0px solid #bbbaba;
+    box-shadow: none;
+}
+
+.home {
+    cursor: pointer;
+    width: 40px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+.mycart {
+    width: 40px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.book-details {
+    margin-left: 89px;
+    margin-top: 5px;
+    width: 60%;
+    height: 130px;
+    top: 20px;
+    left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.order-details {
+    margin-left: 239px;
+    margin-top: 40px;
+    //margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 62%;
+    //height: auto;
+    //top: 240px;
+    //left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 0px solid #b8b8c2;
+    border-radius: 1px;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.address-text {
+    margin-bottom: 50px;
+    box-shadow: none;
+    border: 1px solid #DCDCDC;
+}
+
+.checkout-button {
+    background: #3371B5 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    width: 150px;
+    color: white;
+    margin-left: -8px;
+    opacity: 1;
+}
+
+.book-count {
+    width: 88px;
+    height: 24px;
+    padding-left: 4%;
+    font: normal normal bold 15px/34px Roboto;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.image {
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+.details {
+    margin-left: 10%;
+}
+
+.book-name {
+    padding-top: 9px;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    width: 241px;
+    height: 30px;
+    display: flex;
+}
+
+.author {
+    text-align: left;
+    font: normal normal normal 10px/12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.discount-price {
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    padding-right: 7px;
+}
+
+.actual-price {
+    text-align: left;
+    text-decoration: line-through;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.customer {
+    top: 40px;
+    width: 80%;
+    height: 400px;
+    left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #bbbaba;
+    border-radius: 2px;
+    margin-top: 2%;
+}
+
+.book-image {
+    width: 65px;
+    height: 85px;
+}
+
+.checkout-button {
+    color: #FFFFFF;
+    width: 160px;
+    height: 35px;
+    background: #3371B5 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.order-details-open {
+    margin-left: 239px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    width: 60%;
+    //height: auto;
+    //top: 240px;
+    //left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.mat-card-bottom {
+    border: 0px solid #DCDCDC;
+}

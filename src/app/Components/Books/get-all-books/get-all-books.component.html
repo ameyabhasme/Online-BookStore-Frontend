@@ -1,0 +1,41 @@
+<app-header></app-header>
+<div class="main-header">
+    <div class="main-content">
+        <div class="book">
+            <label class="books">Books</label>
+            <div class="book-count">({{bookDetails.length}} items)</div>
+            <div class="checkbox">
+                <button mat-button [matMenuTriggerFor]="menu">Sort by relevance</button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item class="sort-option" (click)="sortByPriceLowToHigh()">Price:Low to High</button>
+                    <button mat-menu-item class="sort-option" (click)="sortByPriceHighToLow()">Price:High to Low</button>
+                    <button mat-menu-item class="sort-option">Newest Arrivals</button>
+                </mat-menu>
+            </div>
+        </div>
+        <div class="book-all">
+            <div class="book-card" *ngFor="let book of bookDetails">
+                <div class="all-books" (click)="goToBookDetails(book.bookId)">
+                    <div>
+                        <img src="../../../../assets/Book-images/{{book.image}}">
+                    </div>
+                    <div class="book-details">
+                        <div class="details">
+                            <mat-label class="book-name">{{book.bookName}}</mat-label>
+                            <mat-label class="author">{{book.authorName}}</mat-label>
+                            <div class="ratingg">
+                                <div class="rating">4.5 *</div>
+                                <mat-label> (20)</mat-label>
+                            </div>
+                            <div>
+                                <mat-label class="discount-prise">{{book.price}} </mat-label>
+                                <mat-label class="actual-prise"> {{book.price + 500}}</mat-label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

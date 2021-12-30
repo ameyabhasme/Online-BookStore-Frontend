@@ -1,0 +1,49 @@
+<app-header></app-header>
+<div class="heading-crumbs">
+    <p class="home-text">Home/</p>
+    <p class="profile-text">Profile</p>
+</div>
+<div class="main-container">
+    <div class="inner-container1">
+        <div class="first-block">
+            <p class="personaldetails-text">Personal Details</p>
+            <p class="edit-text">Edit</p>
+        </div>
+        <div><label  class="label-text">Full Name</label><input   type="text" class="input-text" placeholder="{{name}}"></div>
+        <div><label  class="label-text">Email id</label><input  type="text" class="input-text" placeholder="{{email}}"></div>
+        <div><label  class="label-text">Password</label><input  type="text" class="input-text" placeholder="{{password}}"></div>
+        <div><label  class="label-text">Mobile Number</label><input  type="text" class="input-text" placeholder="{{phoneNumber}}"></div>
+    </div>
+    <div class="inner-container2">
+        <div class="second-block">
+            <p class="addressdetails-text">Address Details</p>
+            <div class="address-button">
+                <button class="newaddress-button">Add New Address</button></div>
+        </div>
+        <div class="work-block">
+            <p class="addressdetails-text">1. Work</p>
+            <p class="edit-text">Edit</p>
+        </div>
+        <div>
+            <mat-label class="label-text">Address</mat-label>
+            <div><input class="address-text" placeholder="{{address}}"></div>
+        </div>
+        <div class="city-state">
+            <div>
+                <mat-label class="label-text">city/town</mat-label>
+                <input class="city-text" placeholder="{{city}}">
+            </div>
+            <div>
+                <mat-label class="label-text">State</mat-label>
+                <div> <input class="state-text" placeholder="{{state}}"></div>
+            </div>
+        </div>
+        <div class="type">Type</div>
+        <div class="type-block">
+            <mat-radio-button value="after ">Home</mat-radio-button>
+            <mat-radio-button value="after ">Work</mat-radio-button>
+            <mat-radio-button value="after ">Other</mat-radio-button>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

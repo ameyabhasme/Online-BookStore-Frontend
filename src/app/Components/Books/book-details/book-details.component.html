@@ -1,0 +1,109 @@
+<app-header></app-header>
+<div class="container">
+   <div class="label-text" routerLink="">
+      Home /
+      <div class="bookId">
+         Book({{book.bookId}})
+      </div>
+   </div>
+   <div class="book-content">
+      <div class="image-icon-container">
+         <div class="image-icon-box">
+            <img class="image-icon" src="../../../../assets/Book-images/{{book.image}}" alt="">
+         </div>
+         <div class="image-icon-box">
+            <img class="image-icon" src="../../../../assets/Book-images/{{book.image}}" alt="">
+
+         </div>
+      </div>
+      <div class="image-container">
+         <div class="image-box">
+
+            <img class="image" src="../../../../assets/Book-images/{{book.image}}" alt="">
+         </div>
+         <div class="cart-wishlist">
+            <button class="cart-button" (click)="addToBag()">
+               {{"add to bag" | uppercase}}
+            </button>
+            <button class="wishlist-button" (click)="addToWishlist()">
+               <mat-icon class="icon">favorite</mat-icon>
+               {{"wishlist" | uppercase}}
+            </button>
+         </div>
+      </div>
+      <div class="book-details">
+         <div class="heading-details">
+            <div class="title">{{book.bookName}}</div>
+            <div class="author">by {{book.authorName}}</div>
+            <div class="rating-container">
+               <div class="rating-box">
+                  4.5
+                  <mat-icon class="star">star</mat-icon>
+               </div>
+               <div class="book-quantity">({{book.quantity}})</div>
+            </div>
+            <div class="price">Rs {{book.price}} <div class="original-price"><s>{{book.price + 500}}</s></div>
+            </div>
+         </div>
+         <div class="description-container">
+            <ul class="description-text">
+               <li class="header">
+                  <div class="header">
+                     {{"Book Details"| titlecase}}
+                  </div>
+               </li>
+               <div class="description-text">
+                  {{book.description}}
+
+               </div>
+            </ul>
+         </div>
+         <div class="feedback">
+            <div class="feedback-heading">
+               {{"Customer Feedback" | titlecase}}
+            </div>
+            <div class="feedback-form">
+               <div class="ovarall-rating">
+                  {{" Overall rating"|titlecase}}
+               </div>
+               <div class="star-rating">
+                  <mat-icon class="star">star_border</mat-icon>
+                  <mat-icon class="star">star_border</mat-icon>
+                  <mat-icon class="star">star_border</mat-icon>
+                  <mat-icon class="star">star_border</mat-icon>
+                  <mat-icon class="star">star_border</mat-icon>
+               </div>
+               <textarea class="feedback-text" placeholder="Write your review">
+               </textarea>
+               <div class="feedback-submit">
+                  <button class="submit-button">Submit</button>
+
+               </div>
+            </div>
+            <div class="feedback-history">
+               <div class="avatar">
+                  DM
+               </div>
+               <div class="details">
+                  <div class="name">
+                     Diego Maradona
+                  </div>
+                  <div class="stars">
+                     <mat-icon class="star">star</mat-icon>
+                     <mat-icon class="star">star</mat-icon>
+                     <mat-icon class="star">star</mat-icon>
+                     <mat-icon class="star">star</mat-icon>
+                     <mat-icon class="star star2">star_border</mat-icon>
+
+                  </div>
+                  <div class="review">
+                     Good product. Even though the translation could have been better, Chanakya's neeti are thought
+                     provoking. Chanakya has written on many different topics and his writings are succinct.
+                  </div>
+                  <div class="review"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

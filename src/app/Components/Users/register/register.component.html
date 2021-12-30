@@ -1,0 +1,94 @@
+<div class="main-div">
+    <form #userform="ngForm" class="form-content" novalidate>
+        <div class="cart-background">
+            <div>
+                <img class="cart-img" src="assets\Images\Cart-Big.png">
+                <label><strong class="label-bottom">ONLINE BOOK SHOPPING</strong></label>
+            </div>
+            <div class="sign-div">
+                <div class="heading-buttons">
+                    <button class="login-tab" routerLink="/login" routerLinkActive="true">LOGIN</button>
+                    <button class="signup-tab" routerLink="/register" routerLinkActive="true">SIGNUP</button>
+                </div>
+                <div class="inner-form-content">
+                    <mat-label class="input-label">Full Name</mat-label>
+                    <input class="form-input" type="text" minlength="4" name="userName" [(ngModel)]="userDetails.userName" #userName="ngModel" required>
+                    <div><small *ngIf="!userName.valid && (userName.dirty || userName.touched)" class="alert"></small></div>
+
+                    <mat-label class="input-label">Email Id</mat-label>
+                    <input class="form-input" name="email" type="email" [(ngModel)]="userDetails.email" #email="ngModel" required>
+                    <div><small *ngIf="email.invalid && (email.dirty || email.touched)" class="alert">
+                        *Required Field</small>
+                    </div>
+
+                    <form>
+                        <mat-label class="input-label">Password</mat-label>
+                        <input class="form-input" type="password" [(ngModel)]="userDetails.password" name="password" #password="ngModel" required>
+                        <!-- formControlName="password " -->
+                        <!-- <mat-icon matSuffix (click)="hide=! hide ">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon> -->
+                        <!-- <mat-hint *ngIf="!passwordInput.value ">Enter your password</mat-hint> -->
+                    </form>
+
+                    <mat-label class="input-label ">Mobile Number</mat-label>
+                    <input class="form-input " type="text " name="phoneNumber " [(ngModel)]="userDetails.phoneNumber " #phoneNumber="ngModel" #phone="ngModel" required>
+                    <div><small *ngIf="phoneNumber.invalid && (phoneNumber.dirty || phoneNumber.touched) " class="alert ">
+                        *Required Field</small>
+                    </div>
+
+                    <div>
+                        <button mat-button class="login-button " type=submit (click)="userData() " id="submitButton ">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!--<div class="main-div">-->
+<!--    <form #userform="ngForm" class="form-content" novalidate>-->
+<!--        <div class="cart-background">-->
+<!--            <div>-->
+<!--                <img class="cart-img" src="assets\Images\Cart-Big.png">-->
+<!--                <label><strong class="label-bottom">ONLINE BOOK SHOPPING</strong></label>-->
+<!--            </div>-->
+<!--            <div class="sign-div">-->
+<!--                <div class="heading-buttons">-->
+<!--                    <button class="login-tab" routerLink="" routerLinkActive="true">LOGIN</button>-->
+<!--                    <button class="signup-tab" routerLink="/register" routerLinkActive="true">SIGNUP</button>-->
+<!--                </div>-->
+<!--                <div class="inner-form-content">-->
+<!--                    <mat-label class="input-label">Full Name</mat-label>-->
+<!--                    <input class="form-input" type="text" minlength="4" name="userName" [(ngModel)]="userDetails.userName" #userName="ngModel" required>-->
+<!--                    <div><small *ngIf="!userName.valid && (userName.dirty || userName.touched)" class="alert"></small></div>-->
+
+<!--                    <mat-label class="input-label">Email Id</mat-label>-->
+<!--                    <input class="form-input" name="email" type="email" [(ngModel)]="userDetails.email" #email="ngModel" required>-->
+<!--                    <div><small *ngIf="email.invalid && (email.dirty || email.touched)" class="alert">-->
+<!--                        *Required Field</small>-->
+<!--                    </div>-->
+
+<!--                    <form>-->
+<!--                        <mat-label class="input-label">Password</mat-label>-->
+<!--                        <input class="form-input" type="password" [(ngModel)]="userDetails.password" name="password" #password="ngModel" required>-->
+<!--                        &lt;!&ndash; formControlName="password " &ndash;&gt;-->
+<!--                        &lt;!&ndash; <mat-icon matSuffix (click)="hide=! hide ">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon> &ndash;&gt;-->
+<!--                        &lt;!&ndash; <mat-hint *ngIf="!passwordInput.value ">Enter your password</mat-hint> &ndash;&gt;-->
+<!--                    </form>-->
+
+<!--                    <mat-label class="input-label ">Mobile Number</mat-label>-->
+<!--                    <input class="form-input " type="text " name="phoneNumber " [(ngModel)]="userDetails.phoneNumber " #phoneNumber="ngModel" #phone="ngModel" required>-->
+<!--                    <div><small *ngIf="phoneNumber.invalid && (phoneNumber.dirty || phoneNumber.touched) " class="alert ">-->
+<!--                        *Required Field</small>-->
+<!--                    </div>-->
+
+<!--                    <div>-->
+<!--                        <button mat-button class="login-button " type=submit (click)="userData() " id="submitButton ">SignUp</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </form>-->
+<!--</div>-->
+<!--=======-->
+<!--</div>-->
+<!--&gt;>>>>>> 66defa82b39c07726b850907f115ae970d45aaa9-->

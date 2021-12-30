@@ -1,0 +1,74 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   top       : 0px;
+   left      : 0px;
+   width     : 100%;
+   height    : 100%;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   opacity   : 1;
+}
+
+.heading {
+   position      : absolute;
+   top           : 230px;
+   left          : 596px;
+   width         : 174px;
+   height        : 33px;
+   text-align    : left;
+   font          : normal normal bold 25px/33px Roboto;
+   letter-spacing: 0px;
+   color         : #0A0102;
+   text-transform: uppercase;
+   opacity       : 1;
+}
+
+.text {
+   position      : absolute;
+   top           : 266px;
+   left          : 565px;
+   width         : 236px;
+   height        : 20px;
+   text-align    : left;
+   font          : normal normal normal 15px/20px Roboto;
+   letter-spacing: 0px;
+   color         : #9D9D9D;
+   opacity       : 1;
+}
+
+.image {
+   position  : absolute;
+   top       : 324px;
+   left      : 650px;
+   width     : 66px;
+   height    : 73px;
+   background: transparent 0% 0% no-repeat padding-box;
+   opacity   : 1;
+}
+
+.button {
+   position      : absolute;
+   top           : 442px;
+   left          : 620px;
+   width         : 127px;
+   height        : 33px;
+   border        : 1px solid #A03037;
+   background-color: transparent;
+   border-radius : 2px;
+   cursor: pointer;
+   opacity       : 1;
+}
+
+.button-text {
+   text-transform: uppercase;
+   position      : fixed;
+   top           : 451px;
+   left          : 643px;
+   width         : 82px;
+   height        : 16px;
+   text-align    : justify;
+   font          : normal normal normal 12px/16px Roboto;
+   letter-spacing: 0px;
+   color         : #A03037;
+   opacity       : 1;
+}

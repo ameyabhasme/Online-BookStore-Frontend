@@ -1,0 +1,48 @@
+<div class="header">
+    <div class="logo">
+        <img class="logo-image" src="../../../../assets/Images/education.svg" alt="">
+        <span class="logo-text" routerLink="/get-all-books">Bookstore </span>
+    </div>
+
+
+    <div class="search-bar">
+        <mat-icon class="search-icon">search</mat-icon>
+        <!--      <input class="search" style="border: none" type="text" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search...">-->
+        <mat-form-field appearance="standard" class="full-width">
+            <input matInput type="text" class="search" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search....">
+        </mat-form-field>
+
+    </div>
+
+    <div class="profile-and-cart">
+        <div class="profile" [matMenuTriggerFor]="menu">
+            <mat-icon class="person-mat-icon">person_outline</mat-icon>
+            <span>{{name}}</span>
+            <mat-menu #menu="matMenu" class="menu">
+                <div class="mat-menu-items">
+                    <p class="menu-name">Hii {{name}},</p>
+                    <div class="profile-menu" (click)="goTo('/profile')">
+                        <mat-icon class="person-mat-icon menu-icon">person_outline</mat-icon>
+                        <p class="menu-profile">Profile</p>
+                    </div>
+                    <div class="profile-menu" (click)="goTo('/orders')">
+                        <mat-icon class="person-mat-icon menu-icon">card_travel</mat-icon>
+                        <p class="menu-profile">My Orders</p>
+                    </div>
+                    <div class="profile-menu" (click)="goTo('/wishlist')">
+                        <mat-icon class="person-mat-icon menu-icon">favorite_border</mat-icon>
+                        <p class="menu-profile">My WishList</p>
+                    </div>
+                    <div class="profile-menu">
+                        <button class="logout-button" (click)="goTo('/login')">Logout</button>
+                    </div>
+                </div>
+            </mat-menu>
+        </div>
+        <button class="shopping-cart"></button>
+        <div class="cart" (click)="navigateTCart()">
+            <button class="shopping-cart"><mat-icon  class="shopping-cart-icon" matBadge="{{bookArray.length}}" matBadgeSize="small" matBadgeColor="accent">shopping_cart</mat-icon></button>
+            <span>Cart</span>
+        </div>
+    </div>
+</div>

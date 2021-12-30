@@ -1,0 +1,36 @@
+<div class="main-div">
+    <form class="cart-background">
+        <div>
+            <img class="cart-img" src="assets\Images\Cart-Big.png">
+            <label><strong class="label-bottom">ONLINE BOOK SHOPPING</strong></label>
+        </div>
+        <form class="login-div" #loginform="ngForm" novalidate>
+            <div class="heading-buttons">
+                <mat-button class="login-tab" routerLink="/login">LOGIN</mat-button>
+                <mat-button class="signup-tab" routerLink="/register" routerLinkActive="true">SIGNUP</mat-button>
+            </div>
+            <div class="inner-form-content">
+                <mat-label class="input-label">Email Id</mat-label>
+                <input class="form-input" name="email" type="email" [(ngModel)]="userLogin.email" required>
+                <label class="input-label">Password</label>
+                <input matInput [type]="hide ? 'password' : 'text'" class="form-input" type="password" [hidden]="" name="password" [(ngModel)]="userLogin.password" name="password" required>
+                <div mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                </div>
+                <mat-label class="forgot-password-label" routerLink="/forgotPassword">Forgot Password ?</mat-label>
+                <div>
+                    <button mat-button class="login-button" [disabled]="!loginform.valid" (click)="postLogin()">Login</button>
+                </div>
+                <div class="or-line-tag">
+                    <span class="or-tag">OR</span>
+                </div>
+                <div>
+                    <button mat-raised-button class="facebook-button"><a id="facebook" href="https://www.facebook.com/"
+                target='_blank'>Facebook</a></button>
+                    <button mat-raised-button class="google-button"><a id="google"
+                href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                target='_blank'>Google</a></button>
+                </div>
+            </div>
+        </form>
+    </form>
+</div>

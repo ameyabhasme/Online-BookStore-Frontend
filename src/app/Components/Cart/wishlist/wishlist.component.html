@@ -1,0 +1,39 @@
+<div class="main-container">
+    <app-header></app-header>
+    <div class="container">
+        <div>
+            <span class="label1" routerLink="/get-all-books">Home /</span>
+            <span class="label2"> My Wishlist</span>
+            <div>
+                <mat-card class="card-heading">
+                    <h3 class="heading">My Wishlist (0{{bookArray.length}})</h3>
+                </mat-card>
+                <mat-card class="card-main" *ngFor="let book of bookArray">
+                    <div style="margin-left: 4%;" fxLayout="row" fxLayoutAlign="start">
+                        <div class="book">
+                            <img class="book-img" src="../../../../assets/Book-images/{{book.image}}" />
+                            <div class="book-details">
+                                <div class="bookdetails">
+                                    <div class="title" style="word-wrap: break-word;">
+                                        {{book.bookName | titlecase}}
+                                    </div>
+                                    <mat-icon class="icon" (click)="deleteFromWishList(book.bookId)">delete</mat-icon>
+
+                                    <div class="author" style="word-wrap: break-word;">
+                                        by {{book.authorName | titlecase}}
+                                    </div>
+                                    <div class="price" style="word-wrap: break-word;">Rs. {{book.price}}
+                                        <span class="org-price"> {{book.price + 500}}</span>
+                                    </div>
+                                </div>
+                                <!-- <mat-divider style="margin-top:30px; margin-bottom: 40px;"></mat-divider> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

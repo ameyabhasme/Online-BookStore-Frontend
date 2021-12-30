@@ -1,0 +1,289 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.label-text {
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    color: #9b9797;
+    cursor: pointer;
+}
+
+.bookId {
+    color: black;
+}
+
+.book-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-icon-container {
+    order: 1;
+}
+
+.image-icon-box {
+    margin: 0px 3px 3px 3px;
+    height: 54px;
+    width: 44px;
+    padding: 3px;
+    border: 1px solid #777171;
+}
+
+.image-icon {
+    width: 99%;
+    height: 100%;
+}
+
+.image-container {
+    order: 1;
+}
+
+.image-box {
+    width: 260px;
+    height: 350px;
+    border: 1px solid #777171;
+    padding: 20px 35px;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+.cart-wishlist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cart-button {
+    color: #FFFFFF;
+    border: 0ch;
+    background-color: #A03037;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.wishlist-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    background-color: #373434;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 15px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+// .count {
+//     width: 10px;
+//     background-color: #388E3C;
+//     border: 2px solid #3371B5;
+// }
+.book-details {
+    order: 10;
+    margin-left: 30px;
+    margin-top: 1px;
+    width: 555px;
+}
+
+.heading-details {
+    border-bottom: 2px solid #a8a8a8;
+    padding-bottom: 15px;
+}
+
+.title {
+    font-family: Roboto;
+    font-weight: 550;
+    font-size: 26px;
+}
+
+.author {
+    margin-top: 10px;
+    font-family: roboto;
+    font-size: 16px;
+    color: #878787;
+}
+
+.rating-container {
+    display: flex;
+    font-family: Roboto;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #373434;
+}
+
+.rating-box {
+    background-color: #388E3C;
+    font-size: 14px;
+    height: 16px;
+    width: 42px;
+    display: flex;
+    justify-items: center;
+    color: #FFFFFF;
+    padding: 3px;
+    padding-left: 5px;
+    border-radius: 3px;
+    padding-top: 2px;
+    margin-right: 15px;
+}
+
+.star {
+    margin-left: 4px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.book-quantity {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #878787;
+}
+
+.price {
+    display: flex;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.original-price {
+    color: #878787;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+.description-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    border-bottom: 2px solid #9D9D9D;
+    font-size: 13px;
+}
+
+.header {
+    position: relative;
+    font-size: 15px;
+    color: #878787;
+    left: -6px;
+    margin-bottom: 5px;
+}
+
+.description-text {
+    position: relative;
+    left: -12px;
+    line-height: 17px;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-family: Roboto;
+}
+
+.feedback-heading {
+    font-size: 16px;
+}
+
+.feedback-form {
+    margin-top: 10px;
+    width: 100%;
+    height: 240px;
+    background-color: #e2e2e262;
+}
+
+.ovarall-rating {
+    padding: 15px 0px 10px 10px;
+    font-size: 14px;
+}
+
+.star-rating {
+    display: flex;
+    padding-left: 10px;
+}
+
+.star {
+    color: white;
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.feedback-text {
+    margin: 12px;
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #707070;
+    width: 89%;
+    height: 54px;
+}
+
+.feedback-submit {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.submit-button {
+    align-self: flex-end;
+    width: 81px;
+    height: 25px;
+    background-color: #3371B5;
+    margin-right: 28px;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.feedback-history {
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatar {
+    margin-right: 7px;
+    margin-top: -2px;
+    border: 1px solid #9b9797;
+    border-radius: 50px;
+    vertical-align: -2px;
+    width: 45px;
+    height: 20px;
+    color: #707070;
+    background-color: #e7e7e7;
+    text-align: center;
+    font-size: 10px;
+}
+
+.stars {
+    display: inline;
+    color: #FFCE00;
+}
+
+.star2 {
+    color: #878787;
+}
+
+.review {
+    color: #707070;
+    font-size: 14px;
+    padding-bottom: 30px;
+}

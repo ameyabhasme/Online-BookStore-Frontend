@@ -1,0 +1,111 @@
+<app-header></app-header>
+
+<div class="main-class">
+    <div>
+        <mat-card class="cart">
+            <mat-label class="home" routerLink="/get-all-books">Home </mat-label>
+            <mat-label class="mycart"> / My cart({{cartArray.length}})</mat-label>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card class="book-details">
+            <div>
+                <mat-label class="book-count">My Cart</mat-label>
+                <span class="location"><mat-icon class="location-icon"> location_on</mat-icon><span>BridgeLabz Solutions LLP, No..</span></span>
+            </div>
+            <div class="price" *ngFor="let book of cartArray">
+                <div class="image">
+                    <img class="book-image" src="src\assets\Book-images/{{book.bookId.image}}">
+                </div>
+                <div>
+                    <div class="details">
+                        <mat-label class="book-name">{{book.bookId.bookName}}</mat-label>
+                        <mat-label class="author">{{book.bookId.authorName}}</mat-label>
+                        <div>
+                            <mat-label class="book-count">My Cart</mat-label>
+                            <span class="location">
+          <mat-icon class="location-icon"> location_on</mat-icon><span>BridgeLabz Solutions LLP, No..</span>
+                            </span>
+                        </div>
+                        <div class="price" *ngFor="let book of cartBooksArray">
+                            <div class="image">
+                                <img class="book-image" src="src\assets\Book-images{{book.image}}">
+                            </div>
+                            <div>
+                                <div class="details">
+                                    <mat-label class="book-name">{{book.bookName}}</mat-label>
+                                    <mat-label class="author">{{book.authorName}}</mat-label>
+                                    <div>
+                                        <mat-label class="discount-price">Rs. {{book.price}}</mat-label>
+                                        <mat-label class="actual-price">{{book.price + 500}}</mat-label>
+                                    </div>
+                                </div>
+                                <div class="counter-buttons">
+                                    <button class="minus-text">-</button>
+                                    <input class="count-text">
+                                    <button class="plus-text">+</button>
+                                    <div class="remove-button">
+                                        <button type="button" class="remove" (click)="deleteFromCart(book.bookId)">Remove
+              </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="place-order">
+                <button mat-button class="place-button" routerLink="/customer-details">Place Order</button>
+            </div>
+        </mat-card>
+    </div>
+    <mat-card class="customer-details">
+        <div class="internal-content">
+            <span class="heading">{{"Customer Details" | titlecase}}</span>
+            <button class="address-button">Add New Address</button>
+            <div class="row1">
+                <mat-label class="label">Full Name</mat-label>
+                <input matInput type="text" class="input-field">
+            </div>
+
+            <div class="row2">
+                <mat-label class="label">Mobile Number</mat-label>
+                <input matInput class="input-field" type="tel">
+            </div>
+            <div class="radio2">
+                <input type="radio" id="work" name="type" value="work">
+                <label class="adio-label" for="work">1.Work</label>
+            </div>
+
+            <div class="row1">
+                <mat-label class="label">Address</mat-label>
+                <input class="address-input" type="text">
+            </div>
+            <div class="row1">
+                <mat-label class="label">City / Town</mat-label>
+                <input matInput type="text" class="input-field">
+            </div>
+            <div class="row2">
+                <mat-label class="label">State</mat-label>
+                <input matInput class="input-field" type="text">
+            </div>
+
+            <div class="radio1">
+                <input type="radio" id="home" name="type" value="home">
+                <label class="adio-label" for="home">2.Home</label>
+            </div>
+            <div class="row1">
+                <mat-label class="label">Address</mat-label>
+                <input class="address-input" type="text" placeholder="BridgeLabz Solutions LLP, No. 42, 14th Main, 15th Cross, Sector 4, Opp to BDA complex,
+                near Kumarakom restaurant, HSR Layout, Bangalore">
+            </div>
+
+            <div class="button-container">
+                <button mat-button class="confirm-button" routerLink="/order-summary">CONTINUE</button>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="order-text">Order Summary</mat-card>
+</div>
+<app-footer></app-footer>

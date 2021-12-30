@@ -1,0 +1,37 @@
+<div class="main-container">
+    <app-header></app-header>
+    <div class="container">
+        <div>
+            <span class="label1" routerLink="/get-all-books">Home /</span>
+            <span class="label2"> My Order</span>
+            <div>
+                <mat-card class="card-main" *ngFor="let book of orderBookArray">
+                    <div style="margin-left: 4%;" fxLayout="row" fxLayoutAlign="start">
+                        <div class="book">
+                            <img class="book-img" src="../../../../assets/Book-images/{{book.image}}" />
+                            <div>
+                                <div class="bookdetails">
+                                    <div class="title" style="word-wrap: break-word;">
+                                        {{book.bookName | titlecase}}
+                                    </div>
+                                    <!-- <span class="icon"> -->
+                                    <p class="ordertext">&bull; Order Placed On {{ orderDate | date: 'mediumDate' }}</p>
+                                    <!-- </span> -->
+                                    <div class="author" style="word-wrap: break-word;">
+                                        by {{book.authorName | titlecase}}
+                                    </div>
+                                    <div class="price" style="word-wrap: break-word;">
+                                       {{book.price}}
+                                        <span class="org-price">{{book.price + 500}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </mat-card>
+
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

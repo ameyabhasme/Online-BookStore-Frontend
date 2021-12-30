@@ -1,0 +1,240 @@
+.main-class {
+    height: 120%;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+.inner-class {
+    margin-left: 86px;
+    height: auto;
+}
+
+.cart {
+    margin-left: 86px;
+    top: 20px;
+    width: 60%;
+    left: 10%;
+    border: 0px solid #DCDCDC;
+    box-shadow: none;
+    border-radius: 1px;
+}
+
+.home {
+    cursor: pointer;
+    width: 40px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #9d9d9d;
+    opacity: 1;
+}
+
+.mycart {
+    width: 60%;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+    border-radius: 1px;
+}
+
+.book-details {
+    margin-left: 86px;
+    top: 40px;
+    width: 60%;
+    height: auto;
+    left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.book-count {
+    width: 88px;
+    height: 24px;
+    padding-left: 4%;
+    font: normal normal bold 15px/34px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+}
+
+.location {
+    padding: 7px;
+    align-items: center;
+    width: 240px;
+    height: 40px;
+    margin-left: 56%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.image {
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+.details {
+    margin-left: 10%;
+}
+
+.book-name {
+    padding-top: 9px;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    width: 241px;
+    height: 30px;
+    display: flex;
+}
+
+.author {
+    text-align: left;
+    font: normal normal normal 10px/12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.discount-price {
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    padding-right: 7px;
+}
+
+.actual-price {
+    text-align: left;
+    text-decoration: line-through;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.customer {
+    top: 40px;
+    width: 80%;
+    height: 400px;
+    left: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #bbbaba;
+    border-radius: 2px;
+    margin-top: 2%;
+}
+
+.book-image {
+    width: 65px;
+    height: 85px;
+}
+
+.location-icon {
+    font-size: 18px;
+    vertical-align: -3px;
+    color: #A03037;
+}
+
+.counter-buttons {
+    display: flex;
+    width: 80%;
+    margin-left: 25px;
+}
+
+.remove-button {
+    margin-left: 30px;
+    cursor: pointer;
+    .remove {
+        border: none;
+        background-color: transparent;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.place-text {
+    top: 308px;
+    left: 766px;
+    width: 151px;
+    height: 35px;
+    opacity: 1;
+    margin-left: 230%;
+    margin-top: 0px;
+}
+
+.place-button {
+    color: #FFFFFF;
+    width: 151px;
+    height: 35px;
+    background: #3371B5 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.minus-text {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: round($number: 100%);
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    margin-right: 5px;
+}
+
+.count-text {
+    width: 25px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+}
+
+.plus-text {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: round($number: 100%);
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    margin-left: 5px;
+}
+
+.address-text {
+    top: 60px;
+    position: relative;
+    width: 60%;
+    height: 25px;
+    margin-left: 222px;
+    text-align: left;
+    font: normal normal normal 20px/20px Roboto;
+    letter-spacing: 0px;
+    color: #0a0102;
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border: 1px solid #DCDCDC;
+    box-shadow: none;
+}
+
+.place-order {
+    display: flex;
+    flex-direction: row-reverse;
+}

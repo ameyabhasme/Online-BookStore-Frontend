@@ -1,0 +1,129 @@
+1)
+{
+    "bookName" : "An Ordinary Life",
+    "quantity" : 10,
+    "price" : 1850,
+    "authorName" : "Amanda Prowse",
+    "image" : "an-ordinary-kife.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+2)
+{
+    "bookName" : "Black Beauty",
+    "quantity" : 10,
+    "price" : 800,
+    "authorName" : "Anna Sewell",
+    "image" : "black-beauty.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+3)
+{
+    "bookName" : "The Dragon's Blade",
+    "quantity" : 10,
+    "price" : 1300,
+    "authorName" : "Michael R. Miller",
+    "image" : "the-dragon's-blade.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+4
+{
+    "bookName" : "Land Rites",
+    "quantity" : 10,
+    "price" : 400,
+    "authorName" : "Andy Maslen",
+    "image" : "land-rites.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+5
+{
+    "bookName" : "Running Into Love",
+    "quantity" : 10,
+    "price" : 1200,
+    "authorName" : "Aurora Rose Reynolds",
+    "image" : "running-into-love.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+6
+{
+    "bookName" : "Secretly Hers",
+    "quantity" : 10,
+    "price" : 1050,
+    "authorName" : "Jamie Beck",
+    "image" : "secretly-hers.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+7
+{
+    "bookName" : "Storm Glass",
+    "quantity" : 10,
+    "price" : 850,
+    "authorName" : "Jeff Wheeler",
+    "image" : "storm-glass.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+8
+{
+    "bookName" : "The Fever King",
+    "quantity" : 10,
+    "price" : 750,
+    "authorName" : "Victoria Lee",
+    "image" : "the-fever-king.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+9
+{
+    "bookName" : "The Joy Of Missing Out",
+    "quantity" : 10,
+    "price" : 1450,
+    "authorName" : "Tanya Dalton",
+    "image" : "the-joy-of-missing-out.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+10
+{
+    "bookName" : "The Lost Girls Of Ireland",
+    "quantity" : 10,
+    "price" : 450,
+    "authorName" : "Sussane O' Leary",
+    "image" : "the-lost-girls-of-ireland.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+11
+{
+    "bookName" : "The Queen Of Beauty",
+    "quantity" : 10,
+    "price" : 650,
+    "authorName" : "Petra Durst Benning",
+    "image" : "the-queen-of-beauty.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+12
+{
+    "bookName" : "The Risen Shard",
+    "quantity" : 10,
+    "price" : 850,
+    "authorName" : "D.K. Holmberg",
+    "image" : "the-risen-shard.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}
+
+13
+{
+    "bookName" : "The Sea Wolf",
+    "quantity" : 10,
+    "price" : 750,
+    "authorName" : "Jack London",
+    "image" : "the-sea-wolf.jpg",
+    "description" : "Best selling book of 2021. Must Buy!!"
+}

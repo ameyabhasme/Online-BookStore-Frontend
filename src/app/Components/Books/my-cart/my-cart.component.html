@@ -1,0 +1,51 @@
+<app-header></app-header>
+
+<div class="main-class">
+    <div>
+        <mat-card class="cart">
+            <mat-label class="home" routerLink="/get-all-books">Home </mat-label>
+            <mat-label class="mycart"> / My cart({{cartArray.length}})</mat-label>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card class="book-details">
+            <div>
+                <mat-label class="book-count">My Cart</mat-label>
+                <span class="location" *ngIf="cartArray.length > 0"><mat-icon class="location-icon" > location_on</mat-icon><span>BridgeLabz Solutions LLP, No..</span></span>
+            </div>
+            <div class="price" *ngFor="let book of cartArray">
+                <div class="image">
+                    <img class="book-image" src="../../../../assets/Book-images/{{book.bookId.image}}">
+                </div>
+                <div>
+                    <div class="details">
+                        <mat-label class="book-name">{{book.bookId.bookName}}</mat-label>
+                        <mat-label class="author">{{book.bookId.authorName}}</mat-label>
+                        <div>
+                            <mat-label class="discount-price">Rs. {{book.bookId.price}}</mat-label>
+                            <mat-label class="actual-price">{{book.bookId.price + 500}}</mat-label>
+                        </div>
+                    </div>
+                    <div class="counter-buttons">
+                        <button class="minus-text" (click)="decreaseBookQuantity(book.bookId.bookId , book.quantity)">-</button>
+                        <input class="count-text" value="{{book.quantity}}">
+                        <button class="plus-text" (click)="increaseBookQuantity(book.bookId.bookId , book.quantity)">+</button>
+                        <div class="remove-button">
+                            <button type="button" class="remove" (click)="deleteFromCart(book.bookId.bookId)">Remove
+              </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="place-order" *ngIf="cartArray.length > 0">
+                <button mat-button class="place-button" routerLink="/order-summary">Place Order</button>
+            </div>
+        </mat-card>
+    </div>
+    <mat-card class="address-text">AddressDetails
+    </mat-card>
+    <mat-card class="address-text">Order Summary
+    </mat-card>
+</div>
+<app-footer></app-footer>
